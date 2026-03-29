@@ -1,8 +1,8 @@
-def task5(n):
+def task6(n):
     if n == 0:
         return 0
     else:
-        return n % 10 + task5(n // 10)
+        return n % 10 + task6(n // 10)
 
 a = int(input())
-print(task5(a))
+print(task6(a))
