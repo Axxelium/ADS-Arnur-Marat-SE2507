@@ -1,6 +1,6 @@
 def task2(n):
     if n == 0:
-        return 0
+        return
     else:
         print(n, end=" ")
         task2(n - 1)
