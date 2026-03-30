@@ -1,10 +1,10 @@
-def task10(n):
-    if n == 0:
-        return 0
-    elif n == 1:
-        return 1
+def task10(s):
+    if len(s) <= 1:
+        return "Palindrome"
+    elif s[0] != s[-1]:
+        return "Not palindrome"
     else:
-        return task10(n - 1) + task10(n - 2)
+        return task10(s[1:-1])
 
-a = int(input())
-print(task10(a))
+word = input()
+print(task10(word))
