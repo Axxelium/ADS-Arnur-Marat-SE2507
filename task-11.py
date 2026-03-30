@@ -7,3 +7,4 @@ def task11(arr):
 
 a = list(map(int, input().split()))
 print(task11(a))
+

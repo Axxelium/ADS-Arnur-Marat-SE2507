@@ -6,3 +6,6 @@ def task4(n):
 
 a = int(input())
 print(task4(a))
+
+# time complexity - O(n)
+# space complexity - O(1)

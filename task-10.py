@@ -8,3 +8,6 @@ def task10(s):
 
 word = input()
 print(task10(word))
+
+# time complexity - O(n)
+# space complexity - O(1)

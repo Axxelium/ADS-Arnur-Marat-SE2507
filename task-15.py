@@ -8,3 +8,6 @@ def task15(arr):
 
 a = list(map(int, input().split()))
 print(task15(a))
+
+# time complexity - O(n)
+# space complexity - O(1)

@@ -7,3 +7,6 @@ def task8(n):
 
 a = int(input())
 task8(a)
+
+# time complexity - O(n)
+# space complexity - O(1)

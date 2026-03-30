@@ -12,3 +12,6 @@ def task16(arr, target, low, high):
 a = list(map(int, input().split()))
 t = int(input())
 print(task16(a, t, 0, len(a) - 1))
+
+# time complexity - O(log n)
+# space complexity - O(1)

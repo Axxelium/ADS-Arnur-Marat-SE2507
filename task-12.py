@@ -10,3 +10,6 @@ def task12(arr):
 
 a = list(map(int, input().split()))
 print(task12(a))
+
+# time complexity - O(n)
+# space complexity -

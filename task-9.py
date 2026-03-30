@@ -8,3 +8,6 @@ def task9(n):
 
 a = int(input())
 print(task9(a))
+
+# time complexity - O(n)
+# space complexity - O(1)

@@ -7,3 +7,6 @@ def task5(a, b):
 x = int(input())
 y = int(input())
 print(task5(x, y))
+
+# time complexity - O(n)
+# space complexity - O(1)
